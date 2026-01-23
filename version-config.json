@@ -1,0 +1,35 @@
+{
+    "version": "1.1.0",
+    "minVersion": "1.0.0",
+    "updateRequired": false,
+    "alerts": [
+        {
+            "id": "welcome-001",
+            "type": "info",
+            "message": "Welcome to MCQ Solver v1.1.0! Now with console panel for better debugging.",
+            "showUntil": "2026-02-28",
+            "dismissible": true
+        }
+    ],
+    "features": {
+        "autoSolve": true,
+        "consolePanel": true,
+        "apiRetry": true
+    },
+    "apiEndpoint": "https://api.perplexity.ai/chat/completions",
+    "updateUrl": "https://github.com/yourusername/mcq-solver-extension/releases",
+    "changelog": {
+        "1.1.0": [
+            "Added console panel for activity logs",
+            "Replaced toast notifications with in-extension console",
+            "Added hardcoded API key support",
+            "Fixed chrome.storage async issues"
+        ],
+        "1.0.0": [
+            "Initial release",
+            "Text-based MCQ solving",
+            "Auto-answer selection",
+            "Keyboard shortcuts"
+        ]
+    }
+}
