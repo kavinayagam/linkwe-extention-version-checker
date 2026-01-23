@@ -1,12 +1,12 @@
 {
-  "version": "2.2.0",
-  "minVersion": "2.0.0",
+  "version": "1.1.0",
+  "minVersion": "1.0.0",
   "updateRequired": false,
   "alerts": [
     {
       "id": "test-alert-001",
       "type": "info",
-      "message": "🎉 This is a test alert! If you see this, the system is working!",
+      "message": "🎉 This is a sample alert! If you see this, the system is working!",
       "showUntil": "2026-12-31",
       "dismissible": true
     },
