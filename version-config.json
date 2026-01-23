@@ -1,35 +1,42 @@
 {
-    "version": "2.1.0",
-    "minVersion": "2.0.0",
-    "updateRequired": false,
-    "alerts": [
-        {
-            "id": "upgrade-from-v1",
+  "version": "1.1.0",
+  "minVersion": "1.0.0",
+  "updateRequired": false,
+  "alerts": [
+    {
+      "id": "test-alert-001",
+      "type": "info",
+      "message": "🎉 This is a test alert! If you see this, the system is working!",
+      "showUntil": "2026-12-31",
+      "dismissible": true
+    },
+    {
+      "id": "upgrade-from-v1",
       "type": "warning",
-      "message": "⚠️ If you're on v1.0.0, please update to get new features!",
+      "message": "⚠️ New features available! Check the console for details.",
       "showUntil": "2026-03-31",
       "dismissible": true
-        }
-    ],
-    "features": {
-        "autoSolve": true,
-        "consolePanel": true,
-        "apiRetry": true
-    },
-    "apiEndpoint": "https://api.perplexity.ai/chat/completions",
-    "updateUrl": "https://github.com/yourusername/mcq-solver-extension/releases",
-    "changelog": {
-        "1.1.0": [
-            "Added console panel for activity logs",
-            "Replaced toast notifications with in-extension console",
-            "Added hardcoded API key support",
-            "Fixed chrome.storage async issues"
-        ],
-        "1.0.0": [
-            "Initial release",
-            "Text-based MCQ solving",
-            "Auto-answer selection",
-            "Keyboard shortcuts"
-        ]
     }
+  ],
+  "features": {
+    "autoSolve": true,
+    "consolePanel": true,
+    "apiRetry": true
+  },
+  "apiEndpoint": "https://api.perplexity.ai/chat/completions",
+  "updateUrl": "https://github.com/yourusername/mcq-solver-extension/releases",
+  "changelog": {
+    "1.1.0": [
+      "Added console panel for activity logs",
+      "Replaced toast notifications with in-extension console",
+      "Added hardcoded API key support",
+      "Fixed chrome.storage async issues"
+    ],
+    "1.0.0": [
+      "Initial release",
+      "Text-based MCQ solving",
+      "Auto-answer selection",
+      "Keyboard shortcuts"
+    ]
+  }
 }
