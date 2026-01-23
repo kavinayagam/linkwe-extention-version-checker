@@ -4,11 +4,11 @@
     "updateRequired": false,
     "alerts": [
         {
-            "id": "welcome-001",
-            "type": "info",
-            "message": "Welcome to MCQ Solver v1.1.0! Now with console panel for better debugging.",
-            "showUntil": "2026-02-28",
-            "dismissible": true
+            "id": "upgrade-from-v1",
+      "type": "warning",
+      "message": "⚠️ If you're on v1.0.0, please update to get new features!",
+      "showUntil": "2026-03-31",
+      "dismissible": true
         }
     ],
     "features": {
